@@ -1,3 +1,4 @@
+/* **header** */
 .nav-pills .nav-link.active {
   color: black !important;
   background-color: #c1a3a3 !important;
@@ -10,4 +11,11 @@
 }
 .background {
   background-color: #ffd4d7;
+}
+
+/* **welcome & CTA** */
+.btn-primary {
+  color: white !important;
+  background-color: red !important;
+  border-color: red;
 }
