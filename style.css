@@ -34,3 +34,9 @@
 .text-colour {
   color: rgb(8, 8, 8) !important;
 }
+
+/* about */
+.btn-custom {
+  background-color: #c1a3a3 !important;
+  color: white;
+}
