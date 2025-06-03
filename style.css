@@ -13,6 +13,14 @@
   background-color: #ffd4d7;
 }
 
+/* **welcome & CTA** */
+.indv-height {
+  max-height: 570px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 /* **menu** */
 .card-cover {
   background-size: cover;
