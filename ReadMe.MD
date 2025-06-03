@@ -45,7 +45,6 @@ Local customers in the neighborhood, primarily adults aged 25–45, browsing on 
 
   - Full-width background image of baked goods
   - Welcome headline (e.g., “Freshly Baked Happiness”)
-  - Call-to-action button (e.g., “View Menu” or “Call Us Now”)
 
 - **About Us Section**
 
@@ -63,8 +62,8 @@ Local customers in the neighborhood, primarily adults aged 25–45, browsing on 
 
 - **Contact Section**
 
-  - Address, phone number, and hours of operation
-  - A basic contact form (Name, Email, Message)
+  - Address and hours of operation
+  - A contact form utilising JavaScript (Name, Email, Message)
 
 - **Footer**
   - Social media icons (use Font Awesome or placeholder icons)
@@ -75,6 +74,5 @@ Local customers in the neighborhood, primarily adults aged 25–45, browsing on 
 ## Style Guidelines
 
 - Use a warm, inviting color palette (think pastel pinks, browns, creams)
-- Choose a Google Font for headings and body text
 - Use Bootstrap for layout and components (grid, navbar, cards, etc.)
 - Mobile-first responsive design using Bootstrap’s grid
