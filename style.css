@@ -13,13 +13,6 @@
   background-color: #ffd4d7;
 }
 
-/* **welcome & CTA** */
-.btn-primary {
-  color: white !important;
-  background-color: red !important;
-  border-color: red;
-}
-
 /* **menu** */
 .card-cover {
   background-size: cover;
