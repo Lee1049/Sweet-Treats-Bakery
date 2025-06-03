@@ -50,15 +50,16 @@
     <!-- unique request form -->
     <section id="contact">
       <div class="container">
-        <p class="mb-4 ">
-          <div class="border-bottom mb-3">
-          Have something special in mind? Fill out the form below and tell us
-          all about your custom cake or sweet treat request.<br />
-          Whether it's for a birthday, wedding, or a just-because surprise,
-          we’ll get back to you as soon as we can!
-        </p></div>
+        <div class="border-bottom">
+          <p class="mb-4">
+            Have something special in mind? Fill out the form below and tell us
+            all about your custom cake or sweet treat request.<br />
+            Whether it's for a birthday, wedding, or a just-because surprise,
+            we’ll get back to you as soon as we can!
+          </p>
+        </div>
 
-        <form>
+        <form id="requestForm">
           <div class="form-group mt-3 mb-3">
             <label for="exampleFormControlInput1">Full Name</label>
             <input
@@ -99,6 +100,14 @@
           </button>
         </form>
       </div>
+      <script>
+        document
+          .getElementById("requestForm")
+          .addEventListener("submit", function (formSubmit) {
+            formSubmit.preventDefault();
+            window.location.href = "./confirmation.html";
+          });
+      </script>
     </section>
 
     <!-- contact -->
